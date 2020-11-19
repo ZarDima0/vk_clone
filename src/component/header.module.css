@@ -1,0 +1,49 @@
+.header{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background:#292929;
+}
+.logoseach{
+    display: flex;
+}
+.formbutton{
+    display: flex;
+    position: absolute;
+    right: 100px;
+    padding-top: 30px;
+}
+.form{
+    margin: 10px;
+    display: flex;
+}
+.pole{
+    margin-right: 5px;
+    font-size: 14px;
+    width: 150px;
+    height: 30px;
+    border-radius: 2px;
+    background:white ;
+    
+}
+.search{
+    height: 30px;
+    width: 50px;
+    border-radius: 2px;
+    background:#ffa31a;
+    color: white;
+    font-size: 15px;
+    letter-spacing:1px;
+}
+.search:hover{
+    transition: 0.5s;
+    background-color: #754906bd;
+}
+.headerImg{
+    display: flex;
+}
+.headerImg img {
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+}
