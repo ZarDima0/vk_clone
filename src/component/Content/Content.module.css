@@ -1,0 +1,25 @@
+.background{
+    max-width: 100%;
+    width: 100%;
+    background-color: rgb(92, 92, 92);
+}
+.headerImg {
+    padding: 20px;
+}
+.headerImg img {
+    height:100px;
+    width:100%;
+}
+.infoAva{
+    display: flex;
+}
+.infoAva img {
+    margin: 20px;
+    height: 250px;
+}
+.info{
+    padding: 20px;
+    font-size: 30px;
+    line-height: 35px;
+    color: white;
+}

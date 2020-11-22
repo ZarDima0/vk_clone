@@ -1,0 +1,21 @@
+/* Тут я напишу css у посту  */
+.ava{
+    padding: 20px;
+    display: flex;
+}
+.ava img {
+    height: 80px;
+    border-radius: 50px;
+}
+.textPost{
+    font-size: 20px;
+    padding: 20px;
+    color:white;
+}
+.Like{
+    padding: 45px 0px 40px 40px;
+    color: white;
+    font-size: 20px;
+}
+
+
