@@ -1,7 +1,7 @@
 .background{
     max-width: 100%;
     width: 100%;
-    background-color: rgb(92, 92, 92);
+
 }
 .headerImg {
     padding: 20px;
@@ -21,5 +21,5 @@
     padding: 20px;
     font-size: 30px;
     line-height: 35px;
-    color: white;
+    color: rgb(0, 0, 0);
 }

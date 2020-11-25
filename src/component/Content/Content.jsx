@@ -3,7 +3,13 @@ import Contentssc from "./Content.module.css";
 import MyPost from "./MyPost/MyPost.jsx"
 import Post from "./MyPost/Post/post.jsx"
 const Content = (props) => {
-    
+    let PostData = [
+        {id:  1, post:"Вшьф"},
+        {id:  2, post:"Hi how are you"},
+    ]
+    let PostElement = PostData.map(p => <PostData message={p.post} />)
+    {/* let DialogsElement = Dialogs.map(d => <DialogItem name={d.name} id={Dialog.id} />); */}
+
     return (
         <div className={Contentssc.background}>
             <div className={Contentssc.headerImg}>
@@ -22,8 +28,7 @@ const Content = (props) => {
                 </div>
             </div> 
             <MyPost />
-            <Post message="Ghbdtn?" />
-            <Post message="Hi how are you?"/>   
+                { PostElement }
         </div>
     )
 }
